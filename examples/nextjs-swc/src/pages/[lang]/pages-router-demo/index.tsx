@@ -1,5 +1,5 @@
 import { GetStaticProps } from 'next'
-import { loadCatalog } from '../../../pagesRouterI18n'
+import { loadCatalog } from '../../../lib/lingui/pages-router'
 import { HomePage } from '../../../components/HomePage'
 
 import linguiConfig from '../../../../lingui.config'
